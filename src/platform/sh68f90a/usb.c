@@ -268,8 +268,8 @@ static usb_desc_langid_c usb_langid = {
 };
 
 usb_ascii_string_c usb_strings[] = {
-    [USB_STRING_MANUFACTURER - 1]  = "contact@carlossless.io",
-    [USB_STRING_PRODUCT - 1]       = "SMK Keyboard",
+    [USB_STRING_MANUFACTURER - 1]  = "Redragon",
+    [USB_STRING_PRODUCT - 1]       = "K530 Pro Draconic SMK",
     [USB_STRING_SERIAL_NUMBER - 1] = "0001",
 };
 

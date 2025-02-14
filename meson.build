@@ -22,6 +22,12 @@ parts = [
     ['example', 'sh68f90a', ['default'], {}],
     ['nuphy-air60', 'sh68f90a', ['default'], { 'vendor_id': '0x05ac', 'product_id': '0x024f', 'wireless': 'bk3632' }],
     ['eyooso-z11', 'sh68f90a', ['default'], { 'vendor_id': '0x258a', 'product_id': '0x002a' }],
+
+    ['redragon-k530-draconic-pro', 'sh68f90a', ['default'], { 'vendor_id': '0x258a', 'product_id': '0x0049' }],
+    # Notice that I've not kept the wireless option. I don't really use it and I haven't properly mapped out the pins either.
+    # I tried mapping out the pins from the switches on the keyboard but I couldn't make sense of them.
+
+    ['redragon-k630-norgb', 'sh68f90a', ['default'], { 'vendor_id': '0x258a', 'product_id': '0x002a' }],
 ]
 
 # SMK
